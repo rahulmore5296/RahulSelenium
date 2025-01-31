@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNGParameters]" guice-stage="DEVELOPMENT">
+  <parameter name="env" value="staging"/>
+  <test thread-count="5" name="TestWithParameter(failed)">
+    <classes>
+      <class name="test.ParameteriseAnnotation">
+        <methods>
+          <include name="testEnvironment"/>
+        </methods>
+      </class> <!-- test.ParameteriseAnnotation -->
+    </classes>
+  </test> <!-- TestWithParameter(failed) -->
+</suite> <!-- Failed suite [TestNGParameters] -->
