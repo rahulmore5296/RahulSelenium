@@ -20,6 +20,7 @@ public class Day3 {
 		System.out.println("Working on project");
 		System.out.println("Working on project");
 		System.out.println("Working on project");
+		System.out.println("successfully pull");
 	}
 
 	@BeforeMethod
