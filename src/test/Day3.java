@@ -17,6 +17,7 @@ public class Day3 {
 	@Test
 	public void levelLead() {
 		System.out.println("Its Team lead level");
+		System.out.println("Working on project");
 	}
 
 	@BeforeMethod
