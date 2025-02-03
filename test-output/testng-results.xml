@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-03T10:50:28 IST" name="TestNGGroups" finished-at="2025-02-03T10:50:28 IST" duration-ms="366">
+  <suite started-at="2025-02-03T16:58:07 IST" name="Default suite" finished-at="2025-02-03T16:58:07 IST" duration-ms="84">
     <groups>
     </groups>
-    <test started-at="2025-02-03T10:50:28 IST" name="RunSmokeGroup" finished-at="2025-02-03T10:50:28 IST" duration-ms="366">
-      <class name="test.DependOnMethods">
-        <test-method signature="logIn()[pri:0, instance:test.DependOnMethods@49dc7102]" started-at="2025-02-03T10:50:28 IST" name="logIn" finished-at="2025-02-03T10:50:28 IST" duration-ms="82" status="PASS">
+    <test started-at="2025-02-03T16:58:07 IST" name="Default test" finished-at="2025-02-03T16:58:07 IST" duration-ms="84">
+      <class name="test.Day5">
+        <test-method is-config="true" signature="beforeEveryMothod()[pri:0, instance:test.Day5@747edf66]" started-at="2025-02-03T16:58:07 IST" name="beforeEveryMothod" finished-at="2025-02-03T16:58:07 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method signature="Executed()[pri:0, instance:test.DependOnMethods@49dc7102]" started-at="2025-02-03T10:50:28 IST" name="Executed" finished-at="2025-02-03T10:50:28 IST" depends-on-methods="test.DependOnMethods.logIn" duration-ms="2" status="PASS">
+        </test-method> <!-- beforeEveryMothod -->
+        <test-method signature="levelLead()[pri:0, instance:test.Day5@747edf66]" started-at="2025-02-03T16:58:07 IST" name="levelLead" finished-at="2025-02-03T16:58:07 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Executed -->
-        <test-method signature="logOff()[pri:0, instance:test.DependOnMethods@49dc7102]" started-at="2025-02-03T10:50:28 IST" name="logOff" finished-at="2025-02-03T10:50:28 IST" depends-on-methods="test.DependOnMethods.logIn, test.DependOnMethods.Executed" duration-ms="10" status="PASS">
+        </test-method> <!-- levelLead -->
+        <test-method is-config="true" signature="beforeEveryMothod()[pri:0, instance:test.Day5@747edf66]" started-at="2025-02-03T16:58:07 IST" name="beforeEveryMothod" finished-at="2025-02-03T16:58:07 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logOff -->
-      </class> <!-- test.DependOnMethods -->
-    </test> <!-- RunSmokeGroup -->
-  </suite> <!-- TestNGGroups -->
+        </test-method> <!-- beforeEveryMothod -->
+        <test-method signature="levelManager()[pri:0, instance:test.Day5@747edf66]" started-at="2025-02-03T16:58:07 IST" name="levelManager" finished-at="2025-02-03T16:58:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- levelManager -->
+      </class> <!-- test.Day5 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
